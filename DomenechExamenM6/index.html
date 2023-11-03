@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <style>
+        img {
+            max-width: 100%; 
+            height: auto;    
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+  <h1>Página de Personajes Célebres</h1>
+
+  <label for="selector">Selecciona un personaje:</label>
+  <select id="selector">
+    
+  </select>
+
+  <button id="verPersonaje">Ver personaje</button>
+
+  <div class="card" id="infoPersonaje">
+    <img src="" alt="Imagen del personaje" id="imagenPersonaje">
+    <h2 id="nombrePersonaje"></h2>
+    <p id="frasePersonaje"></p>
+  </div>
+
+  <label for="buscador">Busca una palabra en la frase célebre:</label>
+  <input type="text" id="buscador" placeholder="Introduce una palabra">
+  <button id="buscarFrase">Buscar</button>
+
+  <div id="resultadosBusqueda">
+    
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
